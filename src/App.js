@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import  NavAtas from './nav';
 
 function App() {
   return (
     <div className="App">
+      <NavAtas />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
